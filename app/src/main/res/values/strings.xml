@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">小姨妈</string>
+    <string name="action_settings">设置</string>
+    <string name="period_length">经期长度</string>
+    <string name="circle_length">周期长度</string>
+    <string name="last_period">最近一次月经</string>
+    <string name="not_select">未选择</string>
+    <string name="start_use">开始使用</string>
+</resources>

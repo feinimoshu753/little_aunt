@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="edward.com.little_aunt.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical"
+    android:background="@color/colorDefaultBg">
+
+    <TextView
+        android:id="@+id/period_tips"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="你的月经大概持续几天"/>
+
+    <LinearLayout
+        android:id="@+id/period_container"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/colorWhite">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/period_length"
+            android:layout_gravity="center"
+            android:textColor="@color/colorTextDark"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/period_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTextPrimary"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:text="@string/not_select"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/arrow_right"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/circle_tips"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="两次月经开始大概间隔多久？"/>
+
+    <LinearLayout
+        android:id="@+id/circle_container"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/colorWhite">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/circle_length"
+            android:layout_gravity="center"
+            android:textColor="@color/colorTextDark"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/circle_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTextPrimary"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:text="@string/not_select"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/arrow_right"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/last_period_tips"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="最近一次月经大概是哪天来的"/>
+
+    <LinearLayout
+        android:id="@+id/last_period_container"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/colorWhite">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/last_period"
+            android:layout_gravity="center"
+            android:textColor="@color/colorTextDark"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/last_period_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTextPrimary"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:text="@string/not_select"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/arrow_right"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/user_btn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/start_use"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorTextDark"
+        android:textSize="18sp"/>
+
+</LinearLayout>
