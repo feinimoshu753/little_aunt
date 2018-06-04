@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
                 editor.putString("circle_length", circleText);
                 editor.putString("last_period", lastPeriodText);
                 editor.apply();
-                Intent intent = new Intent(MainActivity.this, MainActivity.class);
+                Intent intent = new Intent(MainActivity.this, RecordActivity.class);
                 startActivity(intent);
             }
         });
